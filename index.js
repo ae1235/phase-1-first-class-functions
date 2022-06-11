@@ -1,6 +1,6 @@
-const receiveAFunction = (callback) => (callback())
+const receivesAFunction = (callback) => (callback())
 
-const returnsANamedFunction = () => {return receiveFunction}
+const returnsANamedFunction = () => {return receivesAFunction}
 
 const returnsAnAnonymousFunction = () => {
     return (function () { })
